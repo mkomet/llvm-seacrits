@@ -57,5 +57,5 @@ struct ModifyTypeInfo : public ModulePass {
 } // namespace
 
 char ModifyTypeInfo::ID = 0;
-static RegisterPass<ModifyTypeInfo> _X("modify-type-info-pass",
-                                       "Modify Type Info Pass", false, false);
+static RegisterPass<ModifyTypeInfo> _X("modify-type-info",
+                                       "Modify Type Info Pass");
